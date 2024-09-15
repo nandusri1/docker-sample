@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-alpine
 
-# Set the working directory inside the container
+
 WORKDIR /app
 
 # Copy the jar file into the container
