@@ -2,9 +2,7 @@ name: Build and Upload JAR to GitHub Packages
 
 # Trigger the workflow when code is pushed to the 'main' branch
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch
 
 jobs:
   build:
